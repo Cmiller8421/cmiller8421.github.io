@@ -66,18 +66,7 @@
           </div>
         </div>
 
-        <!-- Controls (Stretch) -->
-        <div id="stretchControls" class="card">
-          <h4 class="card-header">Superpowers - Stretch!</h4>
-          <div class="card-body">
-            <div class="text-center">
-              <button class="btn btn-dark btn-lg unstretch-btn">
-                <span class="fa fa-compress"></span> Normal</button>
-              <button class="btn btn-primary btn-lg stretch-btn">
-                <span class="fa fa-expand"></span> Stretch</button>
-            </div>
-          </div>
-        </div>
+
         <!---Controls (morph) -->
         <div id="morphControls" class="card">
             <h4 class="card-header">Superpowers - Morph!</h4>
@@ -93,7 +82,7 @@
 
         <!-- Controls (Superpower Move Controls) -->
         <div id="moveControls" class="card">
-          <h4 class="card-header">Move Controls</h4>
+          <h4 id="test" class="card-header">Move Controls</h4>
           <div class="card-body">
             <div class="text-center mb-1">
               <button class="btn btn-dark btn-lg fa fa-arrow-up up-button">Up</button>
@@ -155,7 +144,7 @@
 
     //Morph Button 
         $('.morph-btn').on('click', function () {
-    $(".captain-planet").replaceWith('<img src="Assets/clooney.jpg">');
+    $(".captain-planet").attr("src", "assets/clooney.jpg");
 });
     
 
@@ -163,9 +152,16 @@
     $(".vis-button").on("click", function() {
       captainPlanet.animate({ opacity: "1" });
     });
-    $(".invis-button").on("click", function() {
+    $(".invis-button").on("click", function(invisible) {
       captainPlanet.animate({ opacity: "0.05" });
-    });
+    
+
+
+  
+    
+
+  
+     
 
     // Move Buttons
     $(".up-button").on("click", function() {
@@ -183,6 +179,9 @@
     $(".back-button").on("click", function() {
       captainPlanet.animate({ top: "50px", left: "80px" }, "fast");
     });
+    
+
+
 
     // Keyboard move controls
     $(document).keyup(function(e) {
@@ -213,6 +212,10 @@
       }
     });
   });
+});
+
+
+
 
   </script>
 
