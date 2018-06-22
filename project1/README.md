@@ -1,1 +1,1 @@
-# gifTastic
+# Group-Project-1
