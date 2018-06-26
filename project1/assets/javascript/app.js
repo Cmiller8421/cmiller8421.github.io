@@ -18,7 +18,7 @@ $(document).ready(function () {
         $("#submitBtn").on("click", function (event) {
             event.preventDefault();
             // getting zip code from form entry by user.
-            var zip = $("#zip").val().trim();
+            var zip = $("#address").val().trim();
             var queryUrl = "http://api.petfinder.com/pet.find";
 
             
