@@ -16,10 +16,13 @@ $(document).ready(function () {
     function bindButtons() {
         // document.getElementById("submitZip").addEventListener("click", function(event) {
         $("#submitBtn").on("click", function (event) {
+            $("#cardHidden").css("display", "block");
+           // $("#mapHidden").css("display", "block");
+            $("#mapDescriptor").html("Animal Shelters near your search area!");
             event.preventDefault();
             // getting zip code from form entry by user.
-            var zip = $("#zip").val().trim();
-            var queryUrl = "http://api.petfinder.com/pet.find";
+            var zip = $("#address").val().trim();
+            var queryUrl = "https://api.petfinder.com/pet.find";
 
             // filling out the query with ajax
 
@@ -51,7 +54,7 @@ $(document).ready(function () {
                         // var breed = response.petfinder.pets.pet[i].breeds.breed;
                         // var age = response.petfinder.pets.pet[i].age.$t;
 
-                        var dogDiv = $("<div class='card'>");
+                        var dogDiv = $("<div class='card dogCard'>");
                         var div = $("<div class='card-body'>").html("<h1 class='card-title'>" + dogName + '</h1>');
                         if (gender === 'F') {
                             div.append('Female');
@@ -66,14 +69,13 @@ $(document).ready(function () {
                         dogDiv.prepend(dogImage);
                         dogDiv.append(ul);
 
-                        ul.append("<li class='list-group-item'><strong>Source:</strong> " + "https://www.petfinder.com/petdetail/" + id + "<br/>");
-
                         $("#cardSpace").prepend(dogDiv);
-                        $("#href"+ i).attr("href", "https://www.petfinder.com/petdetail/" + id);
+                        $("#href"+ i).attr("href", "https://www.petfinder.com/petdetail/" + id)
+                                     .attr("target", "_blank");
                     }//end of forloop
-                } // end then function
-                // TODO: Add a 'API call Fail' response
-
+                }, // end then function
+                
+                
             });
         });
     }
