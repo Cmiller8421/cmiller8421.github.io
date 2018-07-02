@@ -2,7 +2,7 @@
 
 
 // Initialize Firebase
-/*var config = {
+var config = {
     apiKey: "AIzaSyBS-w_TrjzakR4g7WKGbhX3Yum7zp8cAps",
     authDomain: "group-project-1-6a102.firebaseapp.com",
     databaseURL: "https://group-project-1-6a102.firebaseio.com",
