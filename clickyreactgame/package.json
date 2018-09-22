@@ -2,7 +2,7 @@
   "name": "celeb-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cmiller8421.github.io/clickygame",
+  "homepage": "https://cmiller8421.github.io/clickyreactgame/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
