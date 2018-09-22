@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "MJ",
+        "guessed": false,
+        "image": "https://media.npr.org/assets/img/2016/03/29/ap_090911089838_sq-3271237f28995f6530d9634ff27228cae88e3440-s800-c85.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Clooney",
+        "guessed": false,
+        "image": "https://i.pinimg.com/originals/65/06/cb/6506cbb1f91cec56348d7847bd1f3c8a.jpg"
+
+    },
+    {
+        "id": 3,
+        "name": "JLo",
+        "guessed": false,
+        "image": "https://media.glamour.com/photos/56959c52d9dab9ff41b2f6f4/master/pass/beauty-2015-02-jennifer-lopez-main.jpg"
+
+    },
+    {
+        "id": 4,
+        "name": "JT",
+        "guessed": false,
+        "image": "http://i.imgur.com/7wnh2wS.jpg"
+
+    },
+    {
+        "id": 5,
+        "name": "Ferrell",
+        "guessed":false,
+        "image":"https://pbs.twimg.com/profile_images/484080987932872704/4SlXbd-6.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Kanye",
+        "guessed": false,
+        "image": "https://cdn.vox-cdn.com/thumbor/a8M98eqrZ3CKAVP4Zbp0GVZVjAM=/512x512/cdn.vox-cdn.com/author_profile_images/145811/WQrdbTITQVq9pOmuqyYw_Kanye_West..0.jpg"
+
+    },
+
+    {
+        "id": 7,
+        "name": "Cruise",
+        "guessed": false,
+        "image": "http://vuing.com/wp-content/uploads/2014/01/funny-hilarious-hollywood-stars-celebrities-photoshoped-pictures-5.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Ace",
+        "guessed": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcI8tdt1U-mjwTukxTXsLJ6EbwYdB3w7CCv_lXpqYAGgwugD0uLg"
+
+    },
+
+    {
+        "id": 9,
+        "name": "Eminem",
+        "guessed": false,
+        "image": "https://s2.vagalume.com/eminem/images/eminem.jpg"
+
+    },
+
+    {
+        "id": 10,
+        "name": "Rock",
+        "guessed": false,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSANcfPhdTJYU0asSM3FcYXXo2ubXmssCgeG14GPLI4r-7tNXNC"
+
+    },
+
+    
+    {
+        "id": 11,
+        "name": "Kim",
+        "guessed": false,
+        "image": "https://www.hji.co.uk/wp-content/efs/2018/08/kim-k.jpg"
+
+    },
+
+    {
+        "id": 12,
+        "name": "Oprah",
+        "guessed": false,
+        "image": "https://vignette.wikia.nocookie.net/disney/images/2/22/Oprah_Winfrey.jpg/revision/latest?cb=20180611010156"
+
+    }
+    
+]
